@@ -1,0 +1,114 @@
+{
+    "name": "SensorControls",
+    "maps": [
+        {
+            "name": "Recorder",
+            "id": "9a88c6c7-c427-4bc5-9a76-4f6c8c9e7d3a",
+            "actions": [
+                {
+                    "name": "Capture",
+                    "type": "Button",
+                    "id": "2f89c0c7-17c4-4d4a-9c3a-c3b48b7e3b1a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ToggleRecording",
+                    "type": "Button",
+                    "id": "3f89c0c7-17c4-4d4a-9c3a-c3b48b7e3b1b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PlayAnimation1",
+                    "type": "Button",
+                    "id": "ce7d67a6-ea67-47d8-9419-3d70c8bdeb7a",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PlayAnimation2",
+                    "type": "Button",
+                    "id": "1429a57a-02df-4f97-9606-d20073bef55f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PlayAnimationIdle",
+                    "type": "Button",
+                    "id": "d74bc9cf-eb3e-4b59-9311-53506c5d3184",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4f89c0c7-17c4-4d4a-9c3a-c3b48b7e3b1c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Capture",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5f89c0c7-17c4-4d4a-9c3a-c3b48b7e3b1d",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleRecording",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ee6eac02-8ccf-44b2-86a4-038d9f8e52d8",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayAnimation1",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "78cd7383-3ae2-40be-9f41-ce0ec55a4188",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayAnimation2",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c776d1c7-089d-4317-984b-7dcf7ec6e8d4",
+                    "path": "<Keyboard>/0",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayAnimationIdle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
